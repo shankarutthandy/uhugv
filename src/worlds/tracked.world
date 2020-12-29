@@ -1,9 +1,18 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-    <world name="default">
+<world name="default">
 <include>
 <uri> model://ground_plane</uri>
 </include>
+<physics name='phy' type='ode'>
+  <max_contact> 10 </max_contact>
+  <ode>
+    <solver>
+      <type>quick</type>
+      <iters>30</iters>
+    </solver>
+    </ode>
+</physics>
 
 <model name="track_creator">
  <pose frame=''>0 0 0 0 0 0</pose>   
@@ -50,7 +59,7 @@
       <parent>base_link</parent>
       <child>drum1</child>
       <axis>
-        <xyz>0 0 1</xyz>
+        <xyz>0 0 -1</xyz>
       </axis>
     </joint>
     <link name="drum2">
@@ -78,7 +87,7 @@
       <parent>base_link</parent>
       <child>drum2</child>
       <axis>
-        <xyz>0 0 1</xyz>
+        <xyz>0 0 -1</xyz>
       </axis>
     </joint>
     <link name="drum3">
@@ -106,7 +115,7 @@
       <parent>base_link</parent>
       <child>drum3</child>
       <axis>
-        <xyz>0 0 1</xyz>
+        <xyz>0 0 -1</xyz>
       </axis>
     </joint>
     <link name="drum4">
@@ -134,7 +143,7 @@
       <parent>base_link</parent>
       <child>drum4</child>
       <axis>
-        <xyz>0 0 1</xyz>
+        <xyz>0 0 -1</xyz>
       </axis>
     </joint>
     <link name="right_pad1">
