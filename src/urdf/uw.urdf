@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="uhugv">
+  <!--gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <robotNamespace>/uhugv</robotNamespace>
+    </plugin>
+  </gazebo-->
+
+<link name="base_link">
+<inertial>
+<origin
+xyz="0.029606 0.056108 0.013102"
+rpy="0 0 0" />
+<mass
+value="0.79826" />
+<inertia
+ixx="0.00051564"
+ixy="-2.531E-06"
+ixz="-1.6019E-06"
+iyy="0.0004945"
+iyz="-0.0001344"
+izz="0.0001125" />
+</inertial>
+<visual>
+<origin xyz="0.0 0.0 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<mesh filename="package://uhugv/uhugv.dae" />    
+</geometry>    
+</visual>
+<collision>
+<origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+<geometry>
+<box size="0.548 0.656 0.182"/>
+</geometry>  
+</collision>
+</link>
+<gazebo reference="base_link"/>
+<link name='servoL_mount_1'>
+<inertial>
+<origin
+xyz="0.029606 0.056108 0.013102"
+rpy="0 0 0" />
+<mass
+value="0.79826" />
+<inertia
+ixx="0.00051564"
+ixy="-2.531E-06"
+ixz="-1.6019E-06"
+iyy="0.0004945"
+iyz="-0.0001344"
+izz="0.0001125" />
+</inertial>
+<visual>
+<origin xyz="0.21 0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<mesh filename="package://uhugv/servo.dae" />    
+</geometry>    
+</visual>
+<collision>
+<origin xyz="0.21 0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<box size="0.1 0.2 0.01"/>
+</geometry>  
+</collision>
+</link>
+<gazebo reference="servoL_mount_1"/>
+<joint name="servoL_1" type="revolute">
+<origin xyz="0 0 0" rpy="0 0 0" />
+<parent link="base_link"/>
+<child link="servoL_mount_1" />
+<axis xyz="1.0 0.0 0.0"/>
+<dynamics damping="0.1" friction="0.1"/>
+<limit effort="1.0" velocity="100" lower="-1.57" upper="1.57" />
+</joint>
+<link name='servoL_mount_2'>
+<inertial>
+<origin
+xyz="0.029606 0.056108 0.013102"
+rpy="0 0 0" />
+<mass
+value="0.79826" />
+<inertia
+ixx="0.00051564"
+ixy="-2.531E-06"
+ixz="-1.6019E-06"
+iyy="0.0004945"
+iyz="-0.0001344"
+izz="0.0001125" />
+</inertial>
+<visual>
+<origin xyz="0.11 0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<mesh filename="package://uhugv/servo.dae" />    
+</geometry>    
+</visual>
+<collision>
+<origin xyz="0.11 0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<box size="0.1 0.2 0.01"/>
+</geometry>  
+</collision>
+</link>
+<gazebo reference="servoL_mount_2"/>
+<joint name="servoL_2" type="revolute">
+<origin xyz="0 0 0" rpy="0 0 0" />
+<parent link="base_link"/>
+<child link="servoL_mount_2" />
+<axis xyz="1.0 0.0 0.0"/>
+<dynamics damping="0.1" friction="0.1"/>
+<limit effort="1.0" velocity="100" lower="-1.57" upper="1.57" />
+</joint>
+<link name='servoL_mount_3'>
+<inertial>
+<origin
+xyz="0.029606 0.056108 0.013102"
+rpy="0 0 0" />
+<mass
+value="0.79826" />
+<inertia
+ixx="0.00051564"
+ixy="-2.531E-06"
+ixz="-1.6019E-06"
+iyy="0.0004945"
+iyz="-0.0001344"
+izz="0.0001125" />
+</inertial>
+<visual>
+<origin xyz="0.0 0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<mesh filename="package://uhugv/servo.dae" />    
+</geometry>    
+</visual>
+<collision>
+<origin xyz="0.0 0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<box size="0.1 0.2 0.01"/>
+</geometry>  
+</collision>
+</link>
+<gazebo reference="servoL_mount_3"/>
+<joint name="servoL_3" type="revolute">
+<origin xyz="0 0 0" rpy="0 0 0" />
+<parent link="base_link"/>
+<child link="servoL_mount_3" />
+<axis xyz="1.0 0.0 0.0"/>
+<dynamics damping="0.1" friction="0.1"/>
+<limit effort="1.0" velocity="100" lower="-1.57" upper="1.57" />
+</joint>
+<link name='servoL_mount_4'>
+<inertial>
+<origin
+xyz="0.029606 0.056108 0.013102"
+rpy="0 0 0" />
+<mass
+value="0.79826" />
+<inertia
+ixx="0.00051564"
+ixy="-2.531E-06"
+ixz="-1.6019E-06"
+iyy="0.0004945"
+iyz="-0.0001344"
+izz="0.0001125" />
+</inertial>
+<visual>
+<origin xyz="-0.11 0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<mesh filename="package://uhugv/servo.dae" />    
+</geometry>    
+</visual>
+<collision>
+<origin xyz="-0.11 0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<box size="0.1 0.2 0.01"/>
+</geometry>  
+</collision>
+</link>
+<gazebo reference="servoL_mount_4"/>
+<joint name="servoL_4" type="revolute">
+<origin xyz="0 0 0" rpy="0 0 0" />
+<parent link="base_link"/>
+<child link="servoL_mount_4" />
+<axis xyz="1.0 0.0 0.0"/>
+<dynamics damping="0.1" friction="0.1"/>
+<limit effort="1.0" velocity="100" lower="-1.57" upper="1.57" />
+</joint>
+
+<link name='servoR_mount_1'>
+<inertial>
+<origin
+xyz="0.029606 0.056108 0.013102"
+rpy="0 0 0" />
+<mass
+value="0.79826" />
+<inertia
+ixx="0.00051564"
+ixy="-2.531E-06"
+ixz="-1.6019E-06"
+iyy="0.0004945"
+iyz="-0.0001344"
+izz="0.0001125" />
+</inertial>
+<visual>
+<origin xyz="0.21 -0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<mesh filename="package://uhugv/servo.dae" />    
+</geometry>    
+</visual>
+<collision>
+<origin xyz="0.21 -0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<box size="0.1 0.2 0.01"/>
+</geometry>  
+</collision>
+</link>
+<gazebo reference="servoR_mount_1"/>
+<joint name="servoR_1" type="revolute">
+<origin xyz="0 0 0" rpy="0 0 0" />
+<parent link="base_link"/>
+<child link="servoR_mount_1" />
+<axis xyz="1.0 0.0 0.0"/>
+<dynamics damping="0.1" friction="0.1"/>
+<limit effort="1.0" velocity="100" lower="-1.57" upper="1.57" />
+</joint>
+<link name='servoR_mount_2'>
+<inertial>
+<origin
+xyz="0.029606 0.056108 0.013102"
+rpy="0 0 0" />
+<mass
+value="0.79826" />
+<inertia
+ixx="0.00051564"
+ixy="-2.531E-06"
+ixz="-1.6019E-06"
+iyy="0.0004945"
+iyz="-0.0001344"
+izz="0.0001125" />
+</inertial>
+<visual>
+<origin xyz="0.11 -0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<mesh filename="package://uhugv/servo.dae" />    
+</geometry>    
+</visual>
+<collision>
+<origin xyz="0.11 -0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<box size="0.1 0.2 0.01"/>
+</geometry>  
+</collision>
+</link>
+<gazebo reference="servoR_mount_2"/>
+<joint name="servoR_2" type="revolute">
+<origin xyz="0 0 0" rpy="0 0 0" />
+<parent link="base_link"/>
+<child link="servoR_mount_2" />
+<axis xyz="1.0 0.0 0.0"/>
+<dynamics damping="0.1" friction="0.1"/>
+<limit effort="1.0" velocity="100" lower="-1.57" upper="1.57" />
+</joint>
+<link name='servoR_mount_3'>
+<inertial>
+<origin
+xyz="0.029606 0.056108 0.013102"
+rpy="0 0 0" />
+<mass
+value="0.79826" />
+<inertia
+ixx="0.00051564"
+ixy="-2.531E-06"
+ixz="-1.6019E-06"
+iyy="0.0004945"
+iyz="-0.0001344"
+izz="0.0001125" />
+</inertial>
+<visual>
+<origin xyz="0.0 -0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<mesh filename="package://uhugv/servo.dae" />    
+</geometry>    
+</visual>
+<collision>
+<origin xyz="0.0 -0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<box size="0.1 0.2 0.01"/>
+</geometry>  
+</collision>
+</link>
+<gazebo reference="servoR_mount_3"/>
+<joint name="servoR_3" type="revolute">
+<origin xyz="0 0 0" rpy="0 0 0" />
+<parent link="base_link"/>
+<child link="servoR_mount_3" />
+<axis xyz="1.0 0.0 0.0"/>
+<dynamics damping="0.1" friction="0.1"/>
+<limit effort="1.0" velocity="100" lower="-1.57" upper="1.57" />
+</joint>
+<link name='servoR_mount_4'>
+<inertial>
+<origin
+xyz="0.029606 0.056108 0.013102"
+rpy="0 0 0" />
+<mass
+value="0.79826" />
+<inertia
+ixx="0.00051564"
+ixy="-2.531E-06"
+ixz="-1.6019E-06"
+iyy="0.0004945"
+iyz="-0.0001344"
+izz="0.0001125" />
+</inertial>
+<visual>
+<origin xyz="-0.11 -0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<mesh filename="package://uhugv/servo.dae" />    
+</geometry>    
+</visual>
+<collision>
+<origin xyz="-0.11 -0.41 0.14" rpy="0.0 0.0 0.0" />
+<geometry>
+<box size="0.1 0.2 0.01"/>
+</geometry>  
+</collision>
+</link>
+<gazebo reference="servoR_mount_4"/>
+<joint name="servoR_4" type="revolute">
+<origin xyz="0 0 0" rpy="0 0 0" />
+<parent link="base_link"/>
+<child link="servoR_mount_4" />
+<axis xyz="1.0 0.0 0.0"/>
+<dynamics damping="0.1" friction="0.1"/>
+    <limit effort="1.0" velocity="100" lower="-1.57" upper="1.57" />
+    </joint>
+</robot>
