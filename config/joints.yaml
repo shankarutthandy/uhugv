@@ -1,0 +1,45 @@
+track:
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50  
+
+  servoL1_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: servoL_1
+    pid: {p: 10, i: 0.1, d: 0.01}
+
+  servoL2_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: servoL_2
+    pid: {p: 10, i: 0.1, d: 0.01}
+
+  servoL3_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: servoL_3
+    pid: {p: 10, i: 0.1, d: 0.01}
+
+  servoL4_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: servoL_4
+    pid: {p: 10, i: 0.1, d: 0.01}
+  
+  servoR1_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: servoR_1
+    pid: {p: 10, i: 0.1, d: 0.01}
+
+  servoR2_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: servoR_2
+    pid: {p: 10, i: 0.1, d: 0.01}
+
+  servoR3_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: servoR_3
+    pid: {p: 10, i: 0.1, d: 0.01}
+
+  servoR4_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: servoR_4
+    pid: {p: 10, i: 0.1, d: 0.01}
+
