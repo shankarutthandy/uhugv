@@ -1,5 +1,5 @@
 <launch>
-
+<param name="robot_description" textfile="$(find uhugv)/src/urdf/uw.urdf" />
 <include file="$(find gazebo_ros)/launch/empty_world.launch" >
 <arg name="world_name" value="$(find uhugv)/src/worlds/empty.world" />
 <arg name="paused" default="true"/>
@@ -10,5 +10,14 @@
 </include>
 
 <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" output="screen"
-  args="-file $(find uhugv)/src/urdf/uw.urdf -urdf -model uhugv" />
+  args="-file $(find uhugv)/src/urdf/uw.urdf -urdf -model track" />
+<rosparam file="$(find uhugv)/config/joints.yaml" command="load"/>
+<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
+    <param name="publish_frequency" type="double" value="50.0" />
+    <param name="ignore_timestamp" type="bool" value="true" />
+    <param name="tf_prefix" type="string" value="/track" />    
+    <remap from="/joint_states" to="/track/joint_states" />
+</node>
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+    output="screen" ns="/track" args="joint_state_controller servoL1_position_controller servoL2_position_controller servoL3_position_controller servoL4_position_controller servoR1_position_controller servoR2_position_controller servoR3_position_controller servoR4_position_controller"/>
 </launch>
