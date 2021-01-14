@@ -30,7 +30,7 @@
         <geometry>
          <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/base.stl 
+           model://uhugv/base.stl 
          </uri>
         </mesh>
         </geometry>
@@ -39,7 +39,7 @@
         <geometry>
          <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/base.dae
+           model://uhugv/base.dae
          </uri>
         </mesh>
         </geometry>
@@ -53,7 +53,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/wheel.stl 
+           model://uhugv/wheel.stl 
          </uri>
         </mesh>
         </geometry>
@@ -69,7 +69,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/wheel.stl 
+           model://uhugv/wheel.stl 
          </uri>
         </mesh>
         </geometry>
@@ -90,7 +90,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/wheel2.stl 
+           model://uhugv/wheel2.stl 
          </uri>
         </mesh>
         </geometry>
@@ -111,7 +111,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/wheel2.stl 
+           model://uhugv/wheel2.stl 
          </uri>
         </mesh>
         </geometry>
@@ -132,7 +132,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/wheel.stl 
+           model://uhugv/wheel.stl 
          </uri>
         </mesh>
         </geometry>
@@ -153,7 +153,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/wheel.stl 
+           model://uhugv/wheel.stl 
          </uri>
         </mesh>
         </geometry>
@@ -174,7 +174,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/wheel2.stl 
+           model://uhugv/wheel2.stl 
          </uri>
         </mesh>
         </geometry>
@@ -197,7 +197,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/wheel2.stl 
+           model://uhugv/wheel2.stl 
          </uri>
         </mesh>
         </geometry>
@@ -231,7 +231,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -265,7 +265,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -299,7 +299,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -333,7 +333,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -367,7 +367,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -401,7 +401,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -435,7 +435,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -469,7 +469,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -503,7 +503,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -537,7 +537,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -571,7 +571,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -605,7 +605,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -639,7 +639,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -673,7 +673,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -707,7 +707,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -741,7 +741,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -775,7 +775,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -809,7 +809,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -843,7 +843,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -877,7 +877,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -911,7 +911,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -945,7 +945,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -979,7 +979,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1013,7 +1013,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1047,7 +1047,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1081,7 +1081,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1115,7 +1115,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1149,7 +1149,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1183,7 +1183,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1217,7 +1217,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1251,7 +1251,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1285,7 +1285,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1319,7 +1319,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1353,7 +1353,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1387,7 +1387,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1421,7 +1421,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1455,7 +1455,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1489,7 +1489,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1523,7 +1523,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1557,7 +1557,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1591,7 +1591,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1625,7 +1625,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1659,7 +1659,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1693,7 +1693,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1727,7 +1727,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1761,7 +1761,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1795,7 +1795,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1829,7 +1829,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1863,7 +1863,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1897,7 +1897,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1931,7 +1931,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1965,7 +1965,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -1999,7 +1999,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -2033,7 +2033,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -2067,7 +2067,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -2101,7 +2101,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -2135,7 +2135,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -2169,7 +2169,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -2203,7 +2203,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>
@@ -2237,7 +2237,7 @@
         <geometry>
         <mesh>
          <uri>
-           file:///home/shankar/simu_ws/src/uhugv/track.stl 
+           model://uhugv/track.stl 
          </uri>
         </mesh>
         </geometry>

@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <robot name="track">
-  <gazebo>
-    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
-      <robotNamespace>/track</robotNamespace>
-    </plugin>
-  </gazebo>
+<gazebo>
+<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+<robotNamespace>/track</robotNamespace>
+</plugin>
+</gazebo>
 
+<gazebo>
+<plugin name="buyoancy_plugin" filename="libBuoyancyPlugin.so">
+<fluid_density>15.284252</fluid_density>
+<link name="base_link" />
+</plugin>
+</gazebo>
 <link name="base_link">
 <inertial>
 <origin
