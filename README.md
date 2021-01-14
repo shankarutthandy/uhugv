@@ -22,7 +22,7 @@ $ roslaunch uhugv tracks.launch
 ```
 $ roslaunch uhugv tracks.launch teleop:=true
 ```
-<img src="./images/uhugv.gif" height="500" width="700">
+<img src="./images/tracks.png" height="500" width="800">
 
 ## Underwater simulation:
 
