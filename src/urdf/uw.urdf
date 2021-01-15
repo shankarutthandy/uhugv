@@ -8,8 +8,16 @@
 
 <gazebo>
 <plugin name="buyoancy_plugin" filename="libBuoyancyPlugin.so">
-<fluid_density>15.284252</fluid_density>
+<fluid_density>35.739055</fluid_density>
 <link name="base_link" />
+<link name='servoL_mount_1'/>
+<link name='servoL_mount_2'/>
+<link name='servoL_mount_3'/>
+<link name='servoL_mount_4'/>
+<link name='servoR_mount_1'/>
+<link name='servoR_mount_2'/>
+<link name='servoR_mount_3'/>
+<link name='servoR_mount_4'/>
 </plugin>
 </gazebo>
 <link name="base_link">
@@ -30,7 +38,7 @@ izz="0.0608866" />
 <visual>
 <origin xyz="0.0 0.0 0.14" rpy="0.0 0.0 0.0" />
 <geometry>
-<mesh filename="package://uhugv/uhugv.dae" />    
+<mesh filename="package://uhugv/meshes/uhugv.dae" />    
 </geometry>    
 </visual>
 <collision>
@@ -59,7 +67,7 @@ izz="0.00083333" />
 <visual>
 <origin xyz="0.0 0.1 0.0" rpy="0.0 0.0 0.0" />
 <geometry>
-<mesh filename="package://uhugv/servo.dae" />    
+<mesh filename="package://uhugv/meshes/servo.dae" />    
 </geometry>    
 </visual>
 <collision>
@@ -96,7 +104,7 @@ izz="0.00083333" />
 <visual>
 <origin xyz="0.0 0.1 0.0" rpy="0.0 0.0 0.0" />
 <geometry>
-<mesh filename="package://uhugv/servo.dae" />    
+<mesh filename="package://uhugv/meshes/servo.dae" />    
 </geometry>    
 </visual>
 <collision>
@@ -133,7 +141,7 @@ izz="0.00083333" />
 <visual>
 <origin xyz="0.0 0.1 0.0" rpy="0.0 0.0 0.0" />
 <geometry>
-<mesh filename="package://uhugv/servo.dae" />    
+<mesh filename="package://uhugv/meshes/servo.dae" />    
 </geometry>    
 </visual>
 <collision>
@@ -170,7 +178,7 @@ izz="0.00083333" />
 <visual>
 <origin xyz="0.0 0.1 0.0" rpy="0.0 0.0 0.0" />
 <geometry>
-<mesh filename="package://uhugv/servo.dae" />    
+<mesh filename="package://uhugv/meshes/servo.dae" />    
 </geometry>    
 </visual>
 <collision>
@@ -208,7 +216,7 @@ izz="0.00083333" />
 <visual>
 <origin xyz="0.0 -0.1 0.0" rpy="0.0 0.0 0.0" />
 <geometry>
-<mesh filename="package://uhugv/servo.dae" />    
+<mesh filename="package://uhugv/meshes/servo.dae" />    
 </geometry>    
 </visual>
 <collision>
@@ -245,7 +253,7 @@ izz="0.00083333" />
 <visual>
 <origin xyz="0.0 -0.1 0.0" rpy="0.0 0.0 0.0" />
 <geometry>
-<mesh filename="package://uhugv/servo.dae" />    
+<mesh filename="package://uhugv/meshes/servo.dae" />    
 </geometry>    
 </visual>
 <collision>
@@ -282,7 +290,7 @@ izz="0.00083333" />
 <visual>
 <origin xyz="0 -0.1 0" rpy="0.0 0.0 0.0" />
 <geometry>
-<mesh filename="package://uhugv/servo.dae" />    
+<mesh filename="package://uhugv/meshes/servo.dae" />    
 </geometry>    
 </visual>
 <collision>
@@ -319,7 +327,7 @@ izz="0.00083333" />
 <visual>
 <origin xyz="0.0 -0.1 0.0" rpy="0.0 0.0 0.0" />
 <geometry>
-<mesh filename="package://uhugv/servo.dae" />    
+<mesh filename="package://uhugv/meshes/servo.dae" />    
 </geometry>    
 </visual>
 <collision>

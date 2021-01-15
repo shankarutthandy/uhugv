@@ -18,6 +18,7 @@
     <param name="tf_prefix" type="string" value="/track" />    
     <remap from="/joint_states" to="/track/joint_states" />
 </node>
+<node name="uw_publisher" type="uw_pub.py" pkg="uhugv" />
   <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
     output="screen" ns="/track" args="joint_state_controller servoL1_position_controller servoL2_position_controller servoL3_position_controller servoL4_position_controller servoR1_position_controller servoR2_position_controller servoR3_position_controller servoR4_position_controller"/>
 </launch>
