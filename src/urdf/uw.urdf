@@ -6,9 +6,9 @@
 </plugin>
 </gazebo>
 
-<gazebo>
+<!--gazebo>
 <plugin name="buyoancy_plugin" filename="libBuoyancyPlugin.so">
-<fluid_density>35.739055</fluid_density>
+<fluid_density>37.739055</fluid_density>
 <link name="base_link" />
 <link name='servoL_mount_1'/>
 <link name='servoL_mount_2'/>
@@ -19,7 +19,7 @@
 <link name='servoR_mount_3'/>
 <link name='servoR_mount_4'/>
 </plugin>
-</gazebo>
+</gazebo-->
 <link name="base_link">
 <inertial>
 <origin
@@ -73,7 +73,7 @@ izz="0.00083333" />
 <collision>
 <origin xyz="0.0 0.1 0.0" rpy="0.0 0.0 0.0" />
 <geometry>
-<box size="0.1 0.2 0.01"/>
+<box size="0.1 0.02 0.01"/>
 </geometry>  
 </collision>
 </link>
@@ -110,7 +110,7 @@ izz="0.00083333" />
 <collision>
 <origin xyz="0.0 0.1 0.0" rpy="0.0 0.0 0.0" />
 <geometry>
-<box size="0.1 0.2 0.01"/>
+<box size="0.1 0.02 0.01"/>
 </geometry>  
 </collision>
 </link>
@@ -147,7 +147,7 @@ izz="0.00083333" />
 <collision>
 <origin xyz="0.0 0.1 0.0" rpy="0.0 0.0 0.0" />
 <geometry>
-<box size="0.1 0.2 0.01"/>
+<box size="0.1 0.02 0.01"/>
 </geometry>  
 </collision>
 </link>
@@ -184,7 +184,7 @@ izz="0.00083333" />
 <collision>
 <origin xyz="0.0 0.1 0.0" rpy="0.0 0.0 0.0" />
 <geometry>
-<box size="0.1 0.2 0.01"/>
+<box size="0.1 0.02 0.01"/>
 </geometry>  
 </collision>
 </link>
@@ -222,7 +222,7 @@ izz="0.00083333" />
 <collision>
 <origin xyz="0.0 -0.1 0.0" rpy="0.0 0.0 0.0" />
 <geometry>
-<box size="0.1 0.2 0.01"/>
+<box size="0.1 0.02 0.01"/>
 </geometry>  
 </collision>
 </link>
@@ -259,7 +259,7 @@ izz="0.00083333" />
 <collision>
 <origin xyz="0.0 -0.1 0.0" rpy="0.0 0.0 0.0" />
 <geometry>
-<box size="0.1 0.2 0.01"/>
+<box size="0.1 0.02 0.01"/>
 </geometry>  
 </collision>
 </link>
@@ -296,7 +296,7 @@ izz="0.00083333" />
 <collision>
 <origin xyz="0 -0.1 0" rpy="0.0 0.0 0.0" />
 <geometry>
-<box size="0.1 0.2 0.01"/>
+<box size="0.1 0.02 0.01"/>
 </geometry>  
 </collision>
 </link>
@@ -333,7 +333,7 @@ izz="0.00083333" />
 <collision>
 <origin xyz="0.0 -0.1 0.0" rpy="0.0 0.0 0.0" />
 <geometry>
-<box size="0.1 0.2 0.01"/>
+<box size="0.1 0.02 0.01"/>
 </geometry>  
 </collision>
 </link>

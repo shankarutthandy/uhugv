@@ -17,7 +17,7 @@ class JointPub:
 
     def update(self,dt):
         self.t+=dt
-        amp=np.pi*0.5
+        amp=np.pi*0.3
         for i,j in enumerate(self.joints):
             self.joint_cmd[j]=amp*np.sin(self.t*5+i)
 

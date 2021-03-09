@@ -15,21 +15,21 @@ v=Twist()
 while not rospy.is_shutdown():
     char=sys.stdin.read(1)
     if char=='w':
-        v.linear.x=5.0
+        v.linear.x=10.0
         pub.publish(v)
-        rospy.sleep(0.015)
+        rospy.sleep(0.02)
     elif char=='s':
-        v.linear.x=-5.0
+        v.linear.x=-10.0
         pub.publish(v)
-        rospy.sleep(0.015)
+        rospy.sleep(0.02)
     elif char=='a':
-        v.angular.z=3.0
+        v.angular.z=5.0
         pub.publish(v)
-        rospy.sleep(0.015)
+        rospy.sleep(0.02)
     elif char=='d':
-        v.angular.z=-3.0
+        v.angular.z=-5.0
         pub.publish(v)
-        rospy.sleep(0.015)
+        rospy.sleep(0.02)
     v.angular.z=0
     v.linear.x=0
     pub.publish(v)

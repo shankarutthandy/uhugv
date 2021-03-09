@@ -29,8 +29,5 @@ $ roslaunch uhugv tracks.launch teleop:=true
 ```
 $ roslaunch uhugv uw.launch 
 ```
-<img src="./images/uw.png" height="500" width="700">
+<img src="./images/uw.gif" height="500" width="800">
 
-### Topics:
-
-<img src="./images/topics.png" height="700" width="800">
